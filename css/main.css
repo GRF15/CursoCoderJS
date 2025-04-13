@@ -1,0 +1,53 @@
+/* main.css */
+
+body {
+    background-color: #F5F5F5;
+}
+
+header {
+    background-color: #0B4F6C;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; /* Negrita */
+}
+
+body, p, label, button, input, select {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; /* Regular */
+}
+
+#contadorBalance, input[type="number"] {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+#contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.form-container, .transactions-container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#contenedorBalance {
+    background-color: #157F1F;  /* Fondo verde para balance positivo */
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.negative {
+    background-color: red !important;
+}
+
+@media (max-width: 768px) {
+    #contenedorGrid {
+        grid-template-columns: 1fr;
+    }
+}
