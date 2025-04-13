@@ -1,37 +1,75 @@
 # 💰 Presupuesto Mensual
+Hola, yo soy Gabriel 👋
+Soy estudiante del curso de JavaScript Flex en Coderhouse, y este es uno de mis proyectos prácticos en desarrollo.
 
-### Hola, yo soy Gabriel 👋  
-Soy estudiante del curso de **JavaScript Flex** de Coderhouse, y este es uno de mis proyectos prácticos.
+📌 Descripción del Proyecto
+Este repositorio contiene un simulador de presupuesto mensual que permite a los usuarios gestionar sus ingresos y gastos de manera interactiva.
 
-## 📌 Descripción del Proyecto  
-Este repositorio contiene un **simulador de presupuesto mensual**, desarrollado en **HTML y JavaScript**. El programa permite al usuario registrar transacciones de ingresos y gastos, calcular totales y visualizar el balance final. El flujo es el siguiente:
-- Se solicitan transacciones al usuario (ingresos o gastos) hasta que se ingrese la palabra "salir".
-- Se almacenan los datos en un array.
-- Se calculan los totales de ingresos y gastos.
-- Se muestra el balance final en la consola y mediante una alerta en pantalla.
+Funcionalidades principales:
+Registrar transacciones de ingresos y gastos.
 
-## 🛠️ Tecnologías Utilizadas  
-- **HTML5**: Para la estructura de la interfaz.
-- **JavaScript (ES6)**: Para la lógica del simulador.
+Calcular el balance total.
 
-## 📂 Estructura del Proyecto
+Visualizar un listado de transacciones en pantalla.
 
-📁 CursoCoderJS │── index.html   # Interfaz básica del simulador │── main.js      # Lógica del presupuesto en JavaScript │── README.md    # Documentación del proyecto
+Mostrar un contador dinámico que refleja el balance actual.
 
-## 🚀 Cómo Usarlo  
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/GRF15/CursoCoderJS.git
+Almacenar las transacciones de manera persistente en LocalStorage, utilizando JSON.
 
-2. Abre el archivo index.html en tu navegador.
+El diseño está inspirado en aplicaciones profesionales de finanzas, proporcionando una interfaz moderna y funcional.
 
+🛠️ Tecnologías Utilizadas
+HTML5: Para la estructura de la interfaz.
 
-3. Sigue las instrucciones en pantalla:
+CSS3 y Bootstrap: Para el diseño y la estilización.
 
-Ingresa transacciones de tipo ingreso o gasto.
+JavaScript (ES6): Para la lógica del simulador.
 
-Escribe "salir" para finalizar y ver el balance final.
+Google Fonts: Para una tipografía profesional.
 
+📂 Estructura del Proyecto
+css
+Copiar
+Editar
+📁 CursoCoderJS
+│── index.html       # Página principal del simulador.
+│── js/
+│    └── main.js     # Lógica principal del presupuesto.
+│── css/
+│    └── main.css    # Estilos personalizados.
+│── README.md        # Documentación del proyecto.
+🚀 Cómo Usarlo
+Clona el repositorio:
 
+bash
+Copiar
+Editar
+git clone https://github.com/GRF15/CursoCoderJS.git
+Abre el archivo index.html en tu navegador.
 
-4. Revisa la consola del navegador y la alerta para ver los resultados.# CursoCoderJS# CursoCoderJS
+Registra transacciones:
+
+Selecciona si es un ingreso o un gasto en el formulario.
+
+Ingresa el monto y presiona "Agregar".
+
+Consulta el balance:
+
+El balance se actualiza automáticamente y se muestra en pantalla.
+
+Si el balance es negativo, su color cambiará a rojo para mayor claridad.
+
+Explora la lista de transacciones:
+
+Cada transacción registrada se muestra en una lista interactiva.
+
+Los datos son almacenados en LocalStorage, lo que permite recuperar la información incluso después de recargar la página.
+
+✍️ Próximos Pasos
+
+Implementar gráficos interactivos para representar los datos visualmente.
+
+Permitir edición y eliminación de transacciones.
+
+¡Gracias por revisar este proyecto! Espero que sea de utilidad y aprendizaje.
+
