@@ -5,7 +5,7 @@ Soy estudiante del curso de **JavaScript Flex** de Coderhouse, y este es uno de 
 
 ## 📌 Descripción del Proyecto  
 Este repositorio contiene un **simulador de presupuesto mensual**, desarrollado en **HTML y JavaScript**. El programa permite al usuario registrar transacciones de ingresos y gastos, calcular totales y visualizar el balance final. El flujo es el siguiente:
-- Se solicitan transacciones al usuario (ingresos o gastos) hasta que se ingrese la palabra "salir".
+- Se solicitan transacciones al usuario (ingresos o gastos).
 - Se almacenan los datos en un array.
 - Se calculan los totales de ingresos y gastos.
 - Se muestra el balance final en la consola y mediante una alerta en pantalla.
