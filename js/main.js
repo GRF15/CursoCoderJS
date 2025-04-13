@@ -61,6 +61,16 @@ document.addEventListener('DOMContentLoaded', function() {
         formulario.reset();
     });
 
+    botonReset.addEventListener('click', function() {
+        if (confirm('¿Estás seguro de que deseas reiniciar todas las transacciones?')) {
+            transacciones = [];                     
+            localStorage.removeItem('transacciones'); 
+            renderTransacciones();                
+            actualizarBalance();   
+            location.reload()             
+        }
+    });
+
     renderTransacciones();
     actualizarBalance();
 });
