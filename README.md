@@ -1,4 +1,4 @@
-# 💰 Presupuesto Mensual
+💰 Presupuesto Mensual
 Hola, yo soy Gabriel 👋
 Soy estudiante del curso de JavaScript Flex en Coderhouse, y este es uno de mis proyectos prácticos en desarrollo.
 
@@ -66,10 +66,10 @@ Cada transacción registrada se muestra en una lista interactiva.
 Los datos son almacenados en LocalStorage, lo que permite recuperar la información incluso después de recargar la página.
 
 ✍️ Próximos Pasos
-
 Implementar gráficos interactivos para representar los datos visualmente.
 
 Permitir edición y eliminación de transacciones.
 
 ¡Gracias por revisar este proyecto! Espero que sea de utilidad y aprendizaje.
+
 
