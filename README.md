@@ -36,16 +36,16 @@ El diseño está inspirado en aplicaciones profesionales de finanzas, proporcion
 2. **Abre el archivo index.html en tu navegador**.
 
 3. **Registra transacciones**:
-           Selecciona si es un ingreso o un gasto en el formulario.
-           Ingresa el monto y presiona "Agregar".
+           * Selecciona si es un ingreso o un gasto en el formulario.
+           * Ingresa el monto y presiona "Agregar".
    
 4. **Consulta el balance**:
-           El balance se actualiza automáticamente y se muestra en pantalla.
-           Si el balance es negativo, su color cambiará a rojo para mayor claridad.
+            * El balance se actualiza automáticamente y se muestra en pantalla.
+            * Si el balance es negativo, su color cambiará a rojo para mayor claridad.
    
 5. **Explora la lista de transacciones**:
-          Cada transacción registrada se muestra en una lista interactiva.
-          Los datos son almacenados en LocalStorage, lo que permite recuperar la información incluso después de recargar la página.
+          * Cada transacción registrada se muestra en una lista interactiva.
+          * Los datos son almacenados en LocalStorage, lo que permite recuperar la información incluso después de recargar la página.
 
 # ✍️ Próximos Pasos
 Implementar gráficos interactivos para representar los datos visualmente.
