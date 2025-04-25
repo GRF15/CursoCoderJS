@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
     //localStorage
     let transacciones = JSON.parse(localStorage.getItem('transacciones')) || [];
 
@@ -73,4 +73,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     renderTransacciones();
     actualizarBalance();
-});
