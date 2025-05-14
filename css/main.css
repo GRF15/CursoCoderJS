@@ -10,12 +10,12 @@ header {
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 500; /* Negrita */
+    font-weight: 500; 
 }
 
 body, p, label, button, input, select {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
 }
 
 #contadorBalance, input[type="number"] {
@@ -29,6 +29,11 @@ body, p, label, button, input, select {
     gap: 2rem;
 }
 
+.btneliminar {
+    height: 30px;
+    width: 30px;
+}
+
 .form-container, .transactions-container {
     background-color: #fff;
     padding: 1rem;
@@ -36,7 +41,7 @@ body, p, label, button, input, select {
 }
 
 #contenedorBalance {
-    background-color: #157F1F;  /* Fondo verde para balance positivo */
+    background-color: #157F1F;
     color: #fff;
     text-align: center;
     border-radius: 0.5rem;

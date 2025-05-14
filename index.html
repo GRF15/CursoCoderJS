@@ -21,6 +21,10 @@
     </header>
     <main class="container my-4" id="contenedorGrid">
         <article class="form-container">
+            <div class="container text-center">
+                <h4>Controlá tu economía con nuestra calculadora</h4>
+                <p><em>Los numeros refieren a la moneda local</em> (UYU)</p>
+            </div>
             <form id="Formulario" class="card p-4 shadow-sm">
                 <div class="mb-3">
                     <label for="Transaccion" class="form-label">Tipo de transacción:</label>
@@ -28,6 +32,10 @@
                         <option value="ingreso">Ingreso</option>
                         <option value="gasto">Gasto</option>
                     </select>
+                </div>
+                <div class="mb-3">
+                    <label for="FechaHora" class="form-label">Fecha y hora:</label>
+                    <input type="datetime-local" id="FechaHora" name="FechaHora" class="form-control" required>
                 </div>
                 <div class="mb-3">
                     <label for="Monto" class="form-label">Monto:</label>
@@ -42,7 +50,7 @@
             </div>
         </article>
         <article class="transactions-container">
-            <h2 class="h4">Transacciones</h2>
+            <h2 class="">Transacciones</h2>
             <ul class="list-group" id="listaTransacciones"></ul>
         </article>
     </main>
