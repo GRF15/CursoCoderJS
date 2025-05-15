@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Presupuesto Mensual</title>
+    <title>BalancePro - Mi presupuesto Mensual</title>
+    <link rel="icon" href="assets/Favicon.png" tipe="image/png">
+    <meta name="description" content="Simulador de presupuesto mensual. Controla tus ingresos y gastos de forma sencilla.">
+    <meta name="keywords" content="presupuesto, finanzas, ahorro, gastos, ingrsos, control, mensual, uy, uruguay, simulador, calculadora, economía">
+
     <!-- Bootstrap CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +18,10 @@
     <script src="./js/main.js" defer></script>
 </head>
 <body>
-    <header class="bg-dark text-light py-3">
+    <header class="bg-secondary py-3">
         <div class="container">
-            <h1>Simulador de Presupuesto Mensual</h1>
+            <img class="p-2" src="assets/Logo.png" alt="logo BalancePro" width="300rem">
+            <h1 class="titulo fw-bolder px-3">Simulador de Presupuesto Mensual</h1>
         </div>
     </header>
     <main class="container my-4" id="contenedorGrid">
@@ -49,11 +54,27 @@
                 <p id="contadorBalance" class="fs-4 mb-0">$0</p>
             </div>
         </article>
-        <article class="transactions-container">
-            <h2 class="">Transacciones</h2>
+        <article class="transacciones transactions-container">
+            <h2>Transacciones</h2>
             <ul class="list-group" id="listaTransacciones"></ul>
         </article>
     </main>
+     <footer class="footer w-100 p-2">
+        <div class="logoFooter p-2">
+            <img src="assets/Logo.png" alt="Logo BalancePro" height="70rem"> 
+        </div>
+        <div class="derechos">
+           <p>BalancePro&copy; 2025 Todos los derechos reservados.</p>
+            <p>Contacto: <a href="mailto:balancepro@contacto.com" class="text-decoration-none">balancepro@contacto.com</a>
+        </div>
+        <div class="redes">
+            <div><p>Nuestras redes</p></div>
+            <a href="https://www.linkedin.com" class="mx-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACtklEQVR4AeyVA5AkQRREZ862bTMcZ9u2wzrbtm3bWNvmaW3b3rzKRa+NOWVEDoqvqv//LZPtUpoubC2cLIxKMveyku1UmkYAG2EoyFYESFEgQIos346dX7K7YiFyN8iFB17Sxx4NRxzVdcbYO6aotke5cgB42sFXDGDjF4FM+UbGY+5TK9FXKQBKOKTtjNz68CMAdQ+oVjyAXPicoRtyS8M5GA0PqRGwgm9gxxdMf2SBkNhEZCoxORXbVH9CXllBWHOvCla9sQNPbegRit3qDmhyWL1SYkCKA7kIxvoH1MBrr5KZllJ/IWnK3zskZ/SXEIDB1vm0trAO6K5ndNCYN5DRz9tgWxdhfnc8pQ2madXdSmDb7CeWWPfOHite22LoDWMegiDFj4GJ983hFBLD9IOPcEB0AjZ8+S6daIeaAwJFG/v8ouJh4ROB3uf1sFHpB34GRSMmMRlJKalISE5hLEHJIRCjbptAXlyAmY8tEZ2QjOzaK4qSbHs6AItTdhHwvpU3N0ZB+hYQhcGXDTi//AFSUtNPW5SY3lX3KJc7gKSwuESYeIXByDMM4XFJyC1bv0i0PKbJoCx/ALewWMwSwccApZe9skFwTAKyiXEjPYZyBziq48zUlVK09j4VvLL3Q3ZFxCdh/D0z7lG+AHFJKVj03DrHwhxHqOzimjMeWZQ/QKQ42ZQH5jkW5u896o7IJmYJa0T5A/BqJ+S6Wv7eqebwH+A/QOUBTMwHYFdpAaY9tACrVqyYECPMOr9d1UF6Gx7QcgLb2McxfCOOu2uaB2CLyk/EJ6WPo4PEmtOLqgOsZK2Pa4IDSUvPeWKFXud1pRre94Ie5jy1kvqnC+AWxzTYn2Odnud0MSdjDM0i1ObXOvDVBQjNEFciMJrhKHJwH5FmDgIPfNds4DuniO75P3r6HNY9BwATNI1Cu+uNpgAAAABJRU5ErkJggg==" alt="LinkedIn" width="30" height="30"></a>
+            <a href="https://www.twitter.com" class="mx-2"><img src="https://abs.twimg.com/favicons/twitter.2.ico" alt="Twitter" width="30" height="30"></a>
+            <a href="https://www.instagram.com" class="mx-2"><img src="https://static.cdninstagram.com/rsrc.php/y4/r/QaBlI0OZiks.ico" alt="Instagram" width="30" height="30"></a>
+            <a href="https://www.facebook.com" class="mx-2"><img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook" width="30" height="30"></a>
+        </div>
+    </footer>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
