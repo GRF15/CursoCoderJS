@@ -1,0 +1,4 @@
+[
+  { "tipo": "ingreso", "fechaHora": "2025-04-13T14:00", "monto": 1500 },
+  { "tipo": "gasto",   "fechaHora": "2025-04-12T10:30", "monto": 300 }
+]
